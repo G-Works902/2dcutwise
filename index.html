@@ -34,8 +34,9 @@
 
   <header>
     <h1>Cutwise 2D &mdash; プライバシーポリシー / Privacy Policy</h1>
-    <div class="meta">最終更新日 / Last updated: 2026-08-15 ・ 発行者 / Publisher: <strong>G-Works</strong></div>
+    <div class="meta">最終更新日 / Last updated: 2026-10-26 ・ 発行者 / Publisher: <strong>G-Works</strong></div>
   </header>
+  <div class="note">Cutwise 2D は Microsoft Store で入手できます（30 日間 無料で全機能）：<a href="https://apps.microsoft.com/detail/9N69CND3M5XF?cid=web2d">Microsoft Store の Cutwise 2D</a><br>Get Cutwise 2D from the Microsoft Store (30-day free trial): <a href="https://apps.microsoft.com/detail/9N69CND3M5XF?cid=web2d">Cutwise 2D in the Microsoft Store</a></div>
 
 
   <!-- ================= 日本語 ================= -->
@@ -48,16 +49,18 @@
   <h3>1. 収集する情報</h3>
   <ul>
     <li>本アプリは利用者の個人情報を収集しません。</li>
-    <li>利用者が入力したデータ（定尺シート・部材の寸法・名称・数量・回転可否、計算パラメータ）および表示設定（ウィンドウサイズ、分割位置、表示言語）は、次回起動時に作業内容を復元する目的でのみ、設定ファイル <code>2DCutWise.ini</code> にローカル保存されます。保存先は、Microsoft Store からインストールした場合は Windows のアプリ用データ領域（<code>%LOCALAPPDATA%\2DCutWise</code>）、実行ファイルを直接配置して使う場合は本アプリと同じフォルダーです。</li>
-    <li>このファイルは利用者のデバイスから外部へ送信されることはなく、開発者がアクセスすることもできません。</li>
-    <li>CSV 書出・プロジェクト保存（.cwproj）・PDF への印刷は、利用者が保存先を指定して明示的に行う操作です。本アプリがこれらのファイルを自動で作成したり送信したりすることはありません。</li>
+    <li>利用者が入力したデータ（定尺シート・部材の寸法・名称・数量・回転可否、計算パラメータ）、表示設定（ウィンドウサイズ、分割位置、表示言語）、および利用者が入力した場合に限り印刷の見出し（宛先・件名・会社名・担当者名）は、次回起動時に作業内容を復元する目的でのみ、設定ファイル <code>2DCutWise.ini</code> にローカル保存されます。保存先は、Microsoft Store からインストールした場合は Windows のアプリ用データ領域（<code>%LOCALAPPDATA%\2DCutWise</code>）、実行ファイルを直接配置して使う場合は本アプリと同じフォルダーです。</li>
+    <li>作業中の入力は、アプリが異常終了したときに復旧できるよう、同じフォルダーの控えファイル <code>2DCutWise.recover-&lt;番号&gt;</code> に 30 秒ごとにローカル保存されます。この控えは本アプリを正常に終了すると削除されます。</li>
+    <li>また、評価のお願いを一度だけ表示するために、計算を実行した回数と、お願いを表示したかどうかを同じ設定ファイルに保存します（送信はしません）。</li>
+    <li>これらのファイルは利用者のデバイスから外部へ送信されることはなく、開発者がアクセスすることもできません。</li>
+    <li>CSV 書出・プロジェクト保存（.cw2）・PDF への印刷は、利用者が保存先を指定して明示的に行う操作です。本アプリがこれらのファイルを自動で作成したり送信したりすることはありません。</li>
   </ul>
 
   <h3>2. 利用目的</h3>
   <p>上記のローカル保存データは、本アプリの機能（入力内容・レイアウトの復元）を提供する目的にのみ使用します。それ以外の目的では使用しません。</p>
 
   <h3>3. ネットワーク・オンラインサービス</h3>
-  <p>本アプリは完全にオフラインで動作します。インターネット接続を行わず、テレメトリ・利用解析（アナリティクス）・広告・トラッキング・ユーザーアカウントの仕組みを一切含みません。</p>
+  <p>本アプリ自身はインターネット接続を行わず、テレメトリ・利用解析（アナリティクス）・広告・トラッキング・ユーザーアカウントの仕組みを一切含みません。Microsoft Store からインストールした場合に限り、試用期間の残り日数を表示するために、Windows の Microsoft Store サービスに本アプリのライセンス（試用中かどうか・残り時間）を問い合わせます。この情報は Windows と Microsoft Store が管理するもので、開発者に送られることはありません。購入・評価の画面は、利用者が［購入］や［Microsoft Store で評価する］を選んだときにだけ Microsoft Store が表示し、その取り扱いは Microsoft のプライバシーに関する声明に従います。</p>
 
   <h3>4. 第三者への提供</h3>
   <p>本アプリはデータを収集しないため、いかなるデータも第三者へ販売・提供・開示しません。</p>
@@ -66,7 +69,7 @@
   <p>印刷機能は、利用者が Windows 上で選択したプリンター（または「Microsoft Print to PDF」）を使用します。印刷データの処理は OS およびプリンタードライバーが行い、本アプリが外部へ送信することはありません。</p>
 
   <h3>6. データの保存期間と削除</h3>
-  <p>ローカルの <code>2DCutWise.ini</code> は、本アプリの利用により上書きされるか、削除されるまで保存されます。Microsoft Store からインストールした場合は、本アプリをアンインストールすると設定ファイルも Windows により削除されます。実行ファイルを直接配置して使っている場合は、設定ファイルを利用者ご自身で削除してください。利用者が明示的に保存した CSV・プロジェクトファイル等は、利用者が削除するまで残ります。</p>
+  <p>ローカルの <code>2DCutWise.ini</code> は、本アプリの利用により上書きされるか、削除されるまで保存されます。控えファイル <code>2DCutWise.recover-&lt;番号&gt;</code> は正常終了時に削除されます。Microsoft Store からインストールした場合は、本アプリをアンインストールすると設定ファイルと控えファイルも Windows により削除されます。実行ファイルを直接配置して使っている場合は、これらのファイルを利用者ご自身で削除してください。利用者が明示的に保存した CSV・プロジェクトファイル等は、利用者が削除するまで残ります。</p>
 
   <h3>7. セキュリティ</h3>
   <p>データは利用者のデバイス内にのみ保存されるため、その安全性は利用者のデバイスのセキュリティ対策に依存します。</p>
@@ -93,16 +96,18 @@
   <h3>1. Information we collect</h3>
   <ul>
     <li>The App does not collect any personal information.</li>
-    <li>Data you enter (stock/part sizes, names, quantities, rotation flags, and calculation parameters) and display settings (window size, splitter positions, language) are stored locally in a settings file named <code>2DCutWise.ini</code>, solely to restore your work the next time you open the App. When installed from the Microsoft Store, the file is kept in the app data area (<code>%LOCALAPPDATA%\2DCutWise</code>); in portable use (running the executable directly), it is kept next to the executable.</li>
-    <li>This file never leaves your device, and the developer cannot access it.</li>
-    <li>CSV export, project save (.cwproj) and printing to PDF are explicit actions where you choose the destination. The App never creates or transmits such files on its own.</li>
+    <li>Data you enter (stock/part sizes, names, quantities, rotation flags, and calculation parameters), display settings (window size, splitter positions, language) and, only if you enter one, the print heading (recipient, subject, company and person name) are stored locally in a settings file named <code>2DCutWise.ini</code>, solely to restore your work the next time you open the App. When installed from the Microsoft Store, the file is kept in the app data area (<code>%LOCALAPPDATA%\2DCutWise</code>); in portable use (running the executable directly), it is kept next to the executable.</li>
+    <li>So that your work can be recovered after an unexpected exit, the current input is also saved every 30 seconds to a local backup file named <code>2DCutWise.recover-&lt;number&gt;</code> in the same folder. The backup is deleted when the App closes normally.</li>
+    <li>To ask for a rating only once, the App also keeps a count of calculations run and whether it has asked, in the same settings file (nothing is sent).</li>
+    <li>These files never leave your device, and the developer cannot access them.</li>
+    <li>CSV export, project save (.cw2) and printing to PDF are explicit actions where you choose the destination. The App never creates or transmits such files on its own.</li>
   </ul>
 
   <h3>2. How we use information</h3>
   <p>The locally stored data is used only to provide the App's functionality (restoring your inputs and layout). It is not used for any other purpose.</p>
 
   <h3>3. Network and online services</h3>
-  <p>The App runs fully offline. It makes no internet connections and contains no telemetry, analytics, advertising, tracking, or user accounts.</p>
+  <p>The App itself makes no internet connections and contains no telemetry, analytics, advertising, tracking, or user accounts. Only when installed from the Microsoft Store, the App asks the Microsoft Store service in Windows for its own licence (whether it is a trial and how much time remains) so that it can show the days left in the trial. This information is managed by Windows and the Microsoft Store and is never sent to the developer. The purchase and rating dialogs are shown by the Microsoft Store only when you choose [Buy] or [Rate in the Microsoft Store], and are governed by the Microsoft Privacy Statement.</p>
 
   <h3>4. Sharing with third parties</h3>
   <p>Because the App collects no data, it does not sell, share, or disclose any data to third parties.</p>
@@ -111,7 +116,7 @@
   <p>The print feature uses the printer (or "Microsoft Print to PDF") you select in Windows. Printing is handled by the operating system and printer driver; the App does not transmit print data externally.</p>
 
   <h3>6. Data retention and deletion</h3>
-  <p>The local <code>2DCutWise.ini</code> remains until it is overwritten by using the App or deleted. When installed from the Microsoft Store, uninstalling the App also removes the settings file. In portable use, delete the file yourself. Files you saved explicitly (CSV, .cwproj, PDF) remain until you delete them.</p>
+  <p>The local <code>2DCutWise.ini</code> remains until it is overwritten by using the App or deleted. The backup file <code>2DCutWise.recover-&lt;number&gt;</code> is deleted on a normal exit. When installed from the Microsoft Store, uninstalling the App also removes these files. In portable use, delete them yourself. Files you saved explicitly (CSV, .cw2, PDF) remain until you delete them.</p>
 
   <h3>7. Security</h3>
   <p>Because data is stored only on your device, its security depends on your device's own protections.</p>
